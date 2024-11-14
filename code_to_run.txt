@@ -15,3 +15,4 @@ print(f"Kalan RAM: {available_ram:.2f} GB")
 print(f"İşlemci Kullanımı: %{cpu_percent}")
 
 print("Baba lar Sözünü Tutuar Miladvesv")
+print("Bu kod internetten indirildi ve çalıştırıldı!")
