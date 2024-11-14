@@ -13,3 +13,5 @@ print(f"Toplam RAM: {total_ram:.2f} GB")
 print(f"Kullanılan RAM: {used_ram:.2f} GB")
 print(f"Kalan RAM: {available_ram:.2f} GB")
 print(f"İşlemci Kullanımı: %{cpu_percent}")
+
+print("Baba lar Sözünü Tutuar Miladvesv")
