@@ -1,0 +1,2 @@
+# code_to_run.txt
+print("Bu kod internetten indirildi ve çalıştırıldı!")
