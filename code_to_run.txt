@@ -1,2 +1,15 @@
-# code_to_run.txt
-print("Bu kod internetten indirildi ve çalıştırıldı!")
+# Bilgisayarın RAM ve işlemci bilgilerini gösterir.
+import psutil
+
+# RAM bilgisi
+total_ram = psutil.virtual_memory().total / (1024 ** 3)  # GB cinsinden
+used_ram = psutil.virtual_memory().used / (1024 ** 3)
+available_ram = psutil.virtual_memory().available / (1024 ** 3)
+
+# İşlemci bilgisi
+cpu_percent = psutil.cpu_percent(interval=1)
+
+print(f"Toplam RAM: {total_ram:.2f} GB")
+print(f"Kullanılan RAM: {used_ram:.2f} GB")
+print(f"Kalan RAM: {available_ram:.2f} GB")
+print(f"İşlemci Kullanımı: %{cpu_percent}")
